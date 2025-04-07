@@ -1,0 +1,60 @@
+.schema{
+    width: 70rem;
+    background: rgb(10, 94, 91);
+    margin: 1rem ;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.schemaTitle1{
+    width: 70rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin-top: 0.8rem;
+}
+
+.schemaOptions {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.schemaUpdate, .schemaDelete {
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+/* Update Button */
+.schemaUpdate {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.schemaUpdate:hover {
+    background-color: #45a049; /* Darker Green on hover */
+}
+
+/* Delete Button */
+.schemaDelete {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+.schemaDelete:hover {
+    background-color: #e53935; /* Darker Red on hover */
+}
+
+/* Focused or clicked states */
+.schemaUpdate:focus, .schemaDelete:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}

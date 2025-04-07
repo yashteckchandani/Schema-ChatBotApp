@@ -1,0 +1,7 @@
+.viewSchema{
+    height: 80vh;
+overflow: hidden;
+overflow-y: scroll;
+scroll-behavior: smooth;
+border-radius: 0.5rem;
+}

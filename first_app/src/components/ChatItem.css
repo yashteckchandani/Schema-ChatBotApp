@@ -1,0 +1,24 @@
+/* For normal chat text */
+.chattext {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* For bot messages that contain code */
+ /* Ensure chat text and code are properly formatted */
+ .chattextpre {
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word; /* Force words to break and wrap */
+    max-width: 70rem;
+    word-wrap: break-word;
+    overflow-x: auto;
+    background: transparent;
+  }
+  
+  
+  

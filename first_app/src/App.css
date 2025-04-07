@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(206, 249, 245);
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+
+}
+
+.sidebar{
+  flex: 3;
+  background: rgb(10, 94, 91);
+  border-right: 5px solid rgb(49, 209, 196);
+}
+
+.main{
+  flex: 9;
+}
+
+.brand{
+  font-size: 2rem;
+}
+
+.logo{
+  width: 60px;
+  height: 60px;
+  margin-right: 1rem;
+}
+
+.upperSidebar{
+  padding: 2.5rem;
+}
+
+.upperSideTop{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.addbtn{
+  height: 2rem;
+  padding-left: 2rem;  
+  color: inherit;
+}
+
+.midbtn{
+  background: rgb(49, 209, 196);
+  border : none;
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;  /* Remove underline */
+  color: inherit; 
+}
+
+.midbtn1{
+  background: rgb(49, 209, 196);
+  border : none;
+  color: white;
+  font-size: 1.5rem;
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-decoration: none;  /* Remove underline */
+  color: inherit; 
+}
+
+.link-text {
+  text-decoration: none;   /* Remove underline */
+  color: inherit;          /* Inherit the color of the button */
+  display: flex;           /* Ensure that the Link content is aligned properly */
+  align-items: center; 
+  color : white;    /* Vertically center the text and image */
+}
+
+.midbtn2{
+  background: rgb(30, 110, 113);
+}
+
+
+
+.main{
+  min-height: calc(100vh - 14rem); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin : 6rem 10rem;
+
+
+}
+
+.chats{
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 70rem;
+  height: calc(100vh - 17rem);
+}
+
+.chat{
+  margin: 1rem ;
+  padding: 2rem 3rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: flex-start;
+  text-align: justify;
+  background: rgb(8, 157, 162);
+  max-width: 70rem;
+  width: fit-content;
+  border-radius: 0.5rem;
+}
+
+.chatImg{
+  object-fit: cover;
+  width: 5rem;
+  margin-right: 3rem;
+  border-radius: 0.5rem;
+}
+
+.bot{
+  background: rgb(30, 110, 113);
+  width: fit-content;
+  max-width: 70rem;
+  border-radius: 0.5rem;
+}
+
+.chatFooter{
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.inp{
+  padding: 0.5rem;
+  background: rgb(9, 58, 62);
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  width: 70rem;
+}
+
+.inp>input{
+  width: calc(100% - 3rem);
+  outline: none;
+  padding: 1.25rem;
+  color: white;
+}
+
+.inp>input, .send{
+  background: transparent;
+  border: none;
+}
+
+.innerLowerSidebar{
+  margin:2rem;
+  border-radius: 0.5rem;
+  background: rgb(49, 209, 196);
+  padding: 1rem;
+}

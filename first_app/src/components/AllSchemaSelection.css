@@ -1,0 +1,9 @@
+.allschemaSelection{  margin:2rem;
+border-radius: 0.5rem;
+background: rgb(49, 209, 196);
+padding: 1rem;
+height: 35rem;
+overflow: hidden;
+overflow-y: scroll;
+scroll-behavior: smooth;
+}

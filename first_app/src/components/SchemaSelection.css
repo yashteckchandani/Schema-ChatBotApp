@@ -1,0 +1,28 @@
+.schemaSelection {
+    background: rgb(30, 110, 113); /* Original background color */
+    border: none;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none; /* Remove underline */
+    color: inherit;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.schemaSelection:hover {
+    background: rgb(65, 147, 150); /* Lighter shade on hover */
+}
+
+.schemaSelectbtn {
+    background: transparent;
+    border: none;
+    font-size: 1.25rem;
+    color: white;
+}
